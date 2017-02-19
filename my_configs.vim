@@ -21,10 +21,12 @@ augroup END
 autocmd BufRead,BufNewFile *.erl,*.es.*.hrl,*.yaws,*.xrl set expandtab
 au BufNewFile,BufRead *.erl,*.es,*.hrl,*.yaws,*.xrl setf erlang
 " Allow gf to work with Erlang
-" set includeexpr=substitute(v:fname,'\\\','/','g')                                                                                                           
+set includeexpr=substitute(v:fname,'\:','.erl','g')                                                                                                           
 set suffixesadd+=.erl
-
 map <C-p> :NERDTreeToggle<CR>
+" open file under cursor in a new tab
+nnoremap gf <C-W>gf
+vnoremap gf <C-W>gf
 
 set fillchars=vert:│
 

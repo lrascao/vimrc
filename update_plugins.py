@@ -15,6 +15,7 @@ from os import path
 
 
 #--- Globals ----------------------------------------------
+# open_file_under_cursor.vim https://github.com/amix/open_file_under_cursor.vim
 PLUGINS = """
 ack.vim https://github.com/mileszs/ack.vim
 ag.vim https://github.com/rking/ag.vim
@@ -23,7 +24,6 @@ ctrlp.vim https://github.com/ctrlpvim/ctrlp.vim
 mayansmoke https://github.com/vim-scripts/mayansmoke
 nerdtree https://github.com/scrooloose/nerdtree
 nginx-vim-syntax https://github.com/evanmiller/nginx-vim-syntax
-open_file_under_cursor.vim https://github.com/amix/open_file_under_cursor.vim
 snipmate-snippets https://github.com/scrooloose/snipmate-snippets
 tlib https://github.com/vim-scripts/tlib
 vim-addon-mw-utils https://github.com/MarcWeber/vim-addon-mw-utils
